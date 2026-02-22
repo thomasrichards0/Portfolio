@@ -8,7 +8,7 @@ image: "/images/projects/miniature-models-thumbnail.jpg"
 Designed and 3D printed detailed scale models of products from my co-op experiences—recreating complex assemblies entirely from memory using full-color multi-material printing and functional features like embedded magnets.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/projects/miniature-models-main.jpg" alt="Miniature Product Models" style="max-width: 600px; width: 100%;">
+  <img src="{{ '/images/projects/miniature-models-main.jpg' | relative_url }}" alt="Miniature Product Models" style="max-width: 600px; width: 100%;">
   <p style="font-style: italic; margin-top: 10px;">Miniature Instron testing machines, fully designed and 3D printed</p>
 </div>
 

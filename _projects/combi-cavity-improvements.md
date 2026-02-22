@@ -8,7 +8,7 @@ image: "/images/projects/combi-cavity-thumbnail.jpg"
 Solved an uneven browning issue in the Ninja Combi cooker through rapid prototyping and testing of airflow modifications, leading to design changes that were implemented in the mass-produced product.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/projects/combi-cavity-main.jpg" alt="Combi Cavity Improvements" style="max-width: 600px; width: 100%;">
+  <img src="{{ '/images/projects/combi-cavity-main.jpg' | relative_url }}" alt="Combi Cavity Improvements" style="max-width: 600px; width: 100%;">
   <p style="font-style: italic; margin-top: 10px;">Sheet metal airflow vanes and cavity geometry prototypes</p>
 </div>
 

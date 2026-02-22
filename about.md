@@ -28,7 +28,7 @@ Based in Boston, open to opportunities throughout New England and beyond.
 </div>
   <div class="col-12 col-md-4">
     <div style="text-align: right;">
-      <img src="/images/headshot_cropped.jpg" alt="Thomas Richards" style="max-width: 300px; width: auto; border-radius: 8px; margin-top: 40px; margin-left: 150px">
+      <img src="{{ '/images/headshot_cropped.jpg' | relative_url }}" alt="Thomas Richards" style="max-width: 300px; width: auto; border-radius: 8px; margin-top: 40px; margin-left: 150px">
     </div>
   </div>
 </div>

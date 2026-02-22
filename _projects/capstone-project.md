@@ -8,7 +8,7 @@ image: "/images/projects/capstone-project-cad_cropped.jpg"
 Led a team in designing an innovative insect capture device for my senior capstone project, winning "Best Iterative Design" award through systematic design refinement and user-centered problem solving.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/projects/bug-catcher-main.jpg" alt="Better Bug Catcher Device" style="max-width: 600px; width: 100%;">
+  <img src="{{ '/images/projects/bug-catcher-main.jpg' | relative_url }}" alt="Better Bug Catcher Device" style="max-width: 600px; width: 100%;">
   <p style="font-style: italic; margin-top: 10px;">Final prototype of the insect capture device</p>
 </div>
 

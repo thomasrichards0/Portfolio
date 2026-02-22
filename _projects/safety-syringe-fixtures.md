@@ -8,7 +8,7 @@ image: "/images/projects/safety-syringe-cad_cropped.jpg"
 Designed custom test fixtures for autoinjector safety syringes at Instron, managing the full development cycle from initial concept through CNC production while navigating complex geometric constraints and tight machining tolerances.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/projects/safety-syringe-cad.jpg" alt="SolidWorks CAD Design" style="max-width: 600px; width: 100%;">
+  <img src="{{ '/images/projects/safety-syringe-cad.jpg' | relative_url }}" alt="SolidWorks CAD Design" style="max-width: 600px; width: 100%;">
   <p style="font-style: italic; margin-top: 10px;">3D model of initial fixture design in SolidWorks</p>
 </div>
 

@@ -8,7 +8,7 @@ image: "/images/projects/oven-handle-thumbnail.jpg"
 Redesigned an outdoor grill/oven handle to reduce surface temperatures at user touchpoints, iterating through multiple prototypes to balance thermal performance, ergonomics, and manufacturing constraints.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/projects/oven-handle-main.jpg" alt="Oven Handle Design" style="max-width: 600px; width: 100%;">
+  <img src="{{ '/images/projects/oven-handle-main.jpg' | relative_url }}" alt="Oven Handle Design" style="max-width: 600px; width: 100%;">
   <p style="font-style: italic; margin-top: 10px;">Handle design iterations and testing setup</p>
 </div>
 

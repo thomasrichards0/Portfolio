@@ -8,7 +8,7 @@ image: "/images/projects/camera-fixture-thumbnail.jpg"
 Designed a precision camera calibration fixture for Instron's testing systems, applying GD&T principles, exact constraint theory, and design for manufacturing to ensure repeatable positioning and efficient production.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/projects/camera-fixture-main.jpg" alt="Camera Calibration Fixture" style="max-width: 600px; width: 100%;">
+  <img src="{{ '/images/projects/camera-fixture-main.jpg' | relative_url }}" alt="Camera Calibration Fixture" style="max-width: 600px; width: 100%;">
   <p style="font-style: italic; margin-top: 10px;">Camera calibration fixture design</p>
 </div>
 
