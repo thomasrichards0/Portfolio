@@ -1,6 +1,9 @@
 .header {
   color: $primary;
-  background-color: #ffffff;
+  background-color: #d6dbe1;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;

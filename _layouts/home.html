@@ -2,68 +2,71 @@
 layout: default
 bodyClass: "page-home"
 ---
-
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
+<div style="display: flex; flex-direction: column; min-height: calc(100vh - 100px);">
+  <div class="intro" style="flex: 0 1 auto; padding-bottom: 20px;">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+          {{ content }}
+          {% if page.show_call_box %}
+            {% include call.html show_button=true %}
+          {% endif %}
+        </div>
+        {% if page.intro_image %}
+        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+          <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+        </div>
         {% endif %}
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+    </div>
+  </div>
+
+<!-- Projects Preview Section -->
+<div class="container pt-6 pb-6">
+  <h2 style="text-align: center; margin-bottom: 40px; font-weight: bold;">Featured Projects</h2>
+  <div class="row">
+    {% for project in site.projects limit:4 %}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary" style="display: flex; flex-direction: column; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; background: white; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+        {% if project.image %}
+        <div class="service-image" style="flex-shrink: 0; padding: 15px;">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="width: 100%; height: 350px; object-fit: contain;">
+        </div>
+        {% endif %}
+        <div class="service-content" style="flex-grow: 1; padding: 20px;">
+          <h2 class="service-title">
+            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+          </h2>
+          <p>{{ project.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+        </div>
       </div>
-      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="row justify-content-center" style="margin-top: 20px;">
+    <div class="col-auto">
+      <a class="button button-primary" href="{{ '/projects/' | relative_url }}" style="padding: 14px 32px; background: #324D6C; color: white; text-decoration: none; border-radius: 6px; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; border: 2px solid #324D6C; transition: all 0.2s ease;" onmouseover="this.style.background='#d6dbe1'; this.style.borderColor='#d6dbe1'; this.style.color='#324D6C';" onmouseout="this.style.background='#324D6C'; this.style.borderColor='#324D6C'; this.style.color='white';">View All Projects</a>
     </div>
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+  <div class="strip strip-grey" style="margin-top: auto;">
+
+    <div class="strip strip-grey" style="margin-top: auto;">
+      <div class="container pt-4 pb-4">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-8">
+            <h1 style="font-family: 'Domine', serif; font-size: 32px; font-weight: bold; margin-bottom: 20px;">Contact Me!</h1>
+            <p style="font-size: 18px;">
+              <strong>Email:</strong> <a href="mailto:richards.t@northeastern.edu">richards.t@northeastern.edu</a><br>
+              <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/trr" target="_blank">linkedin.com/in/trr</a><br>
+              <strong>Location:</strong> Boston, MA
+            </p>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <img src="/images/temp-contact.jpg" alt="Contact" style="max-width: 200px; width: 100%;">
           </div>
         </div>
       </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
     </div>
   </div>
-</div>
-
-{% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}

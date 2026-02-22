@@ -1,21 +1,10 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
+  - name: "Projects"
+    url: "/projects/"
+    weight: 1
   - name: "About"
     url: "/about/"
-    weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
-
-footer:
-  - name: "Home"
-    url: "/"
-    weight: 1
-  - name: "Contact"
-    url: "/contact/"
     weight: 2
+  - name: "Resume"
+    url: "/resume/"
+    weight: 3
