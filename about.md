@@ -9,7 +9,13 @@ description: About Thomas Richards
 
 # About Me
 
-I'm a mechanical engineer drawn to the challenge of making things work reliably in the real world. Whether it's designing test fixtures for medical devices or optimizing thermal performance in consumer products, I'm energized by the iterative process—testing, learning from failures, and refining until the solution holds up.
+Hi! I am a Master's Mechanical Engineering student at Northeastern University with a strong interest in designing thoughtful and functional products. My passion for engineering originates from a fascination with understanding how different devices work behind the scenes and being able to implement creative solutions to solve unique problems.
+
+Through my academics, I've developed a widespread technical skill capabilities through both practical experience through various projects and co-op opportunities at SharkNinja and Instron.
+
+Looking forward, I’m excited about exploring product design where I can apply both my technical skills and creative problem-solving abilities.
+
+Outside of academics, I enjoy working on personal projects like 3D printing and building mechanical keyboards. These hobbies have allowed me to experiment with design and prototyping.
 
 ## My Experience
 
@@ -26,9 +32,18 @@ I'm graduating in May 2026 and looking for mechanical engineering roles where I 
 Based in Boston, open to opportunities throughout New England and beyond.
 
 </div>
-  <div class="col-12 col-md-4">
-    <div style="text-align: right;">
-      <img src="{{ '/images/headshot_cropped.jpg' | relative_url }}" alt="Thomas Richards" style="max-width: 300px; width: auto; border-radius: 8px; margin-top: 40px; margin-left: 150px">
-    </div>
-  </div>
+  <div class="col-12 col-md-4" style="text-align: center;">
+  <img src="{{ '/images/headshot_cropped.jpg' | relative_url }}" alt="Thomas Richards" style="max-width: 300px; width: auto; border-radius: 8px; margin-top: 40px;">
+</div>
+
+<style>
+@media (min-width: 768px) {
+  .col-md-4 {
+    text-align: right !important;
+  }
+  .col-md-4 img {
+    margin-left: 200px !important;
+  }
+}
+</style>
 </div>

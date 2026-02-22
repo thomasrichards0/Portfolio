@@ -2,9 +2,7 @@
 title: Projects
 layout: projects
 description: Engineering Projects
-intro_image: "{{ '/images/sample.jpg' | relative_url }}"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+intro_image: "images/sample.jpg"
 ---
 
 # Engineering Projects
