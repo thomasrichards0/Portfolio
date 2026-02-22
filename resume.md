@@ -10,8 +10,8 @@ description: 'Thomas Richards Resume'
 <style>
 @media (max-width: 768px) {
   embed {
-    height: 600px !important;
-    margin: 10px 5px !important;
+    height: 500px !important;
+    margin: 5px 5px !important;
   }
 }
 </style>
