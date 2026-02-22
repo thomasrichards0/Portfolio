@@ -1,4 +1,5 @@
-baseurl: 'https://thomasrichards.me'
+baseurl: ''
+url: 'https://thomasrichards.me'
 permalink: pretty
 title: 'Thomas Richards'
 logo:
