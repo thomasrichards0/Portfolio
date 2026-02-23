@@ -30,18 +30,15 @@ I'm graduating in **May 2026** and looking for mechanical engineering roles wher
 I'm based in Boston and open to opportunities around New England.
 
 </div>
-  <div class="col-12 col-md-4" style="text-align: center;">
-  <img src="{{ '/images/headshot_cropped.jpg' | relative_url }}" alt="Thomas Richards" style="max-width: 300px; width: auto; border-radius: 8px; margin-top: 40px;">
+
+<div class="col-12 col-md-2">
+    <!-- Empty spacer column -->
+  </div>
+
+  <div class="col-12 col-md-2" style="text-align: center; display: flex; flex-direction: column; align-items: center; padding-left: 100px;">
+  <img src="{{ '/images/headshot_cropped.jpg' | relative_url }}" alt="Thomas Richards" style="max-width: 300px; width: auto; border-radius: 8px; margin-top: 0px;">
+  <img src="{{ '/images/about-keycap.jpg' | relative_url }}" alt="Illustrated Keycap" style="max-width: 200px; width: auto; margin-top: 20px;">
+  <p style="font-style: italic; margin-top: 10px; font-size: 0.9em; color: #666; text-align: center; white-space: nowrap;">A keycap illustration I made for coursework</p>
 </div>
 
-<style>
-@media (min-width: 768px) {
-  .col-md-4 {
-    text-align: right !important;
-  }
-  .col-md-4 img {
-    margin-left: 200px !important;
-  }
-}
-</style>
 </div>
