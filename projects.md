@@ -7,4 +7,4 @@ intro_image: "images/sample.jpg"
 
 # Engineering Projects
 
-From R&D testing systems to consumer product development, here's a selection of my work across co-ops, academic projects, and independent design challenges.
+Here is a selection of my work accross co-ops, academic projects, and independent design work.

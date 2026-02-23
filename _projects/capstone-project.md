@@ -53,7 +53,7 @@ To pull back the curtains of how I achieved this, I developed several integrated
 
 <div style="text-align: center; margin: 30px 0;">
   <img src="{{ '/images/projects/capstone-hidden-fastener-2.jpg' | relative_url }}" alt="Hidden screws" style="max-width: 600px; width: 40%; border-radius: 8px;">
-  <p style="font-style: italic; margin-top: 10px;">The screw hidden using the handle grip</p>
+  <p style="font-style: italic; margin-top: 10px;">The screws hidden using the handle grip</p>
 </div>
 
 **Silicone Handle**
