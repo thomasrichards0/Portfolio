@@ -7,4 +7,4 @@ intro_image: "images/sample.jpg"
 
 # Engineering Projects
 
-Here is a selection of my work accross co-ops, academic projects, and independent design work.
+Mechanical engineering projects from my co-ops at Instron and SharkNinja, senior capstone project, and personal work.

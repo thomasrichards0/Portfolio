@@ -5,27 +5,49 @@ weight: 2
 image: "/images/projects/safety-syringe-cad_cropped.jpg"
 ---
 
-Designed custom test fixtures for autoinjector safety syringes at Instron, managing the full development cycle from initial concept through CNC production while navigating complex geometric constraints and tight machining tolerances.
+Designed and iterated CNC-manufactured test fixtures to test safety syringes, applying exact constraint theory and GD&T to meet tight tolerance and clearance requirements.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="{{ '/images/projects/safety-syringe-cad.jpg' | relative_url }}" alt="SolidWorks CAD Design" style="max-width: 600px; width: 100%;">
+  <img src="{{ '/images/projects/safety-syringe-cad.jpg' | relative_url }}" alt="SolidWorks CAD Design" style="max-width: 600px; width: 70%; border-radius: 8px;">
   <p style="font-style: italic; margin-top: 10px;">3D model of initial fixture design in SolidWorks</p>
 </div>
 
+## Summary
+
+During my co-op at Instron, I designed custom test fixtures to allow a specific brand of safety syringe to be tested on the autoinjector test system. 
+
 ## Design Challenges
 
-The AutoInjector Test System needed fixtures to test safety syringe devices with complicated geometry. The challenge was designing fixturing that could accommodate both device sizes, securely grip only at rigid locations, remove caps without dropping them, and work with existing pneumatic grips—all while maintaining CNC-manufacturable tolerances.
+The biggest challenge was balancing CNC manufacturability and tight clearances between the upper and lower grips during operation. Specifically, to inject medicine from the syringe, the upper grips must be lowered between the lower grips.
+
+Furthermore, the grips needed to attach onto the existing autoinjector pneumatic grip fingers, while also interacting with the safety syringe in specific set zones to avoid damage.
 
 ## Approach
 
-I led the fixture development from concept to production, creating iterative CAD designs in SolidWorks and validating concepts through 3D-printed prototypes before committing to machined parts. The design required careful torque calculations to ensure grip usage stayed within safety factors and precise clearance management between moving components.
+**Exact Constraint**
 
-Key technical constraints included exact constraint theory application, GD&T specifications for manufacturing, and designing around existing mounting hardware while ensuring the fixtures could be produced efficiently on CNC equipment.
+I applied exact constraint principles, using pin holes and slots to ensure the grips are precisely attached onto the existing pneumatic grips to maintain repeatable positioning between testing rounds.
+
+**Design for Manufacturing**
+
+When developing the grips, I purposely designed them to minimized the number of CNC setups to make shorten manufacturing time. Furthermore, I implemented GD&T to set tighter tolerances when needed.
+
+**Validation and Verification Testing**
+
+I performed repeated tests on demo autoinjectors using 3D printed nylon and carbon fiber prototyped grips to verify grip performance. Initial testing results indicated inadequate grip force during safety syringe cap removal. To solve this, we proposed applying a thin rubber layer on the inner grip surface. This resulted in a vastly improved testing success rate.
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="{{ '/images/projects/safety-syringe-testing.jpg' | relative_url }}" alt="SolidWorks CAD Design" style="max-width: 600px; width: 50%; border-radius: 8px;">
+  <p style="font-style: italic; margin-top: 10px;">V&V testing of safety syringe test fixtures</p>
+</div>
 
 ## Results
 
-Successfully developed and deployed fixtures that met all design constraints and passed validation testing. The system handled both device sizes reliably and integrated seamlessly with existing test equipment.
+Successfully developed safety syringe testing fixtures from initial concept through to manufacturing.
 
 ## Skills Applied
 
-CAD design, GD&T, exact constraint theory, design for manufacturing, verification & validation testing
+- SolidWorks (configurations, assemblies, exploded views)
+- GD&T
+- Exact Constraint
+- Design for Manufacturing
