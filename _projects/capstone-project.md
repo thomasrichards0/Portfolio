@@ -65,7 +65,7 @@ We identified ergonomics as another source of differentiation compared to existi
 Working with New England Beekeeping, we conducted validation testing at an apiary with a prototype of the Critter Catcher. The beekeeper tested the device on live bees, evaluating the capture and release functionality, adjustable vacuum fan speed, and insect safeness. All captured bees were successfully caught, and subsequently released unharmed. The beekeepers provided positive feedback on the device's features, with a particular interest in its ability to separate and transport queen bees and checking beehives for mites.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="{{ '/images/projects/capstone-prototype-testing.jpg' | relative_url }}" alt="Validation Testing at apiary" style="max-width: 600px; width: 100%; border-radius: 8px;">
+  <img src="{{ '/images/projects/capstone-prototype-testing.JPG' | relative_url }}" alt="Validation Testing at apiary" style="max-width: 600px; width: 100%; border-radius: 8px;">
   <p style="font-style: italic; margin-top: 10px;">Validation testing of an early prototype with live bees at a local apiary</p>
 </div>
 
