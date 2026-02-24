@@ -35,7 +35,7 @@ I'm based in Boston and open to opportunities around New England.
     <!-- Empty spacer column -->
   </div>
 
-  <div class="col-12 col-md-2" style="text-align: center; display: flex; flex-direction: column; align-items: center; padding-left: 100px;">
+  <div class="col-12 col-md-2 ps-md-10" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
   <img src="{{ '/images/headshot_cropped.jpg' | relative_url }}" alt="Thomas Richards" style="max-width: 300px; width: auto; border-radius: 8px; margin-top: 0px;">
   <img src="{{ '/images/about-keycap.jpg' | relative_url }}" alt="Illustrated Keycap" style="max-width: 200px; width: auto; margin-top: 20px;">
   <p style="font-style: italic; margin-top: 10px; font-size: 0.9em; color: #666; text-align: center; white-space: nowrap;">A keycap illustration I made for coursework</p>
