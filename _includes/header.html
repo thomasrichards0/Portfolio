@@ -1,10 +1,14 @@
 <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="{{ '/' | relative_url }}">TR</a>
+      <a href="{{ '/' | relative_url }}">
+        <img src="{{ '/images/bear-header.png' | relative_url }}" alt="TR Logo" style="height: 60px; width: auto; display: block; margin-top: -20px; transition: filter 0.2s ease;" onmouseover="this.style.filter='brightness(0.7)'" onmouseout="this.style.filter='brightness(1)'">
+      </a>
     </div>
     <div class="logo-mobile">
-      <a href="{{ '/' | relative_url }}">TR</a>
+      <a href="{{ '/' | relative_url }}">
+        <img src="{{ '/images/bear-header.png' | relative_url }}" alt="TR Logo" style="height: 50px; width: auto; display: block; margin-top: -15px; transition: filter 0.2s ease;" onmouseover="this.style.filter='brightness(0.7)'" onmouseout="this.style.filter='brightness(1)'">
+      </a>
     </div>
     {% include main-menu.html %}
     {% include hamburger.html %}

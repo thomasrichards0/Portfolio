@@ -2,26 +2,27 @@
 layout: default
 bodyClass: "page-services"
 ---
-<div class="intro">
+<div class="intro" style="padding-bottom: 40px;">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
       </div>
       {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" style="max-width: 400px; width: 100%; height: auto;" />
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative" style="text-align: center; padding-right: 20px;">
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" style="max-width: 200px; width: 20%; height: auto;" />
       </div>
       {% endif %}
     </div>
   </div>
 </div>
-<div class="container pt-6 pb-6">
-  <div class="row">
+
+<div class="container pt-0 pb-6">
+  <div class="row" style="display: flex; flex-wrap: wrap;">
     {% for project in site.projects %}
-    <div class="col-12 col-md-6 mb-3">
-      <a href="{{ project.url | relative_url }}" style="text-decoration: none; color: inherit; display: block;">
-        <div class="service service-summary" style="display: flex; flex-direction: column; border: 1px solid #324D6C; border-radius: 8px; overflow: hidden; background: white; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+    <div class="col-12 col-md-6 mb-3" style="display: flex;">
+      <a href="{{ project.url | relative_url }}" style="text-decoration: none; color: inherit; display: block; width: 100%;">
+        <div class="service service-summary" style="display: flex; flex-direction: column; height: 100%; border: 1px solid #324D6C; border-radius: 8px; overflow: hidden; background: white; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
           {% if project.image %}
           <div class="service-image" style="flex-shrink: 0; padding: 15px;">
             <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="width: 100%; height: 350px; object-fit: contain;">

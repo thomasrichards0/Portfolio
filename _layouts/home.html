@@ -3,9 +3,9 @@ layout: default
 bodyClass: "page-home"
 ---
 <div style="display: flex; flex-direction: column; min-height: calc(100vh - 100px);">
-  <div class="intro" style="flex: 0 1 auto; padding-bottom: 20px;">
-    <div class="container">
-      <div class="row justify-content-start">
+  <div class="intro" style="flex: 0 1 auto; padding: 80px 0 0px 0; overflow: visible !important;">
+    <div class="container" style="overflow: visible !important;">
+      <div class="row justify-content-start" style="overflow: visible !important;">
         <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
           {{ content }}
           {% if page.show_call_box %}
@@ -13,8 +13,8 @@ bodyClass: "page-home"
           {% endif %}
         </div>
         {% if page.intro_image %}
-        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-          <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" style="max-width: 400px; width: 100%; height: auto;" />
+        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2" style="text-align: center; padding-right: 20px; overflow: visible !important;">
+          <img alt="{{ page.title }}" src="{{ page.intro_image | relURL }}" style="max-width: 150px; width: 30%; height: auto; display: inline-block; margin-top: 0px;" />
         </div>
         {% endif %}
       </div>
@@ -66,7 +66,7 @@ bodyClass: "page-home"
             </p>
           </div>
           <div class="col-12 col-md-4 text-center">
-            <img src="{{ '/images/temp-contact.jpg' | relative_url }}" alt="Contact" style="max-width: 200px; width: 100%;">
+            <img src="{{ '/images/bear-contact.png' | relative_url }}" alt="Contact" style="max-width: 200px; width: 40%;">
           </div>
         </div>
       </div>

@@ -43,7 +43,7 @@ I performed repeated tests on demo autoinjectors using 3D printed nylon and carb
 
 ## Results
 
-Successfully developed safety syringe testing fixtures from initial concept through to manufacturing.
+Successfully developed safety syringe testing fixtures from initial concept through prototyping. Although, the final production design was changed after my co-op ended.
 
 ## Skills Applied
 

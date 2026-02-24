@@ -2,7 +2,7 @@
 title: Projects
 layout: projects
 description: Engineering Projects
-intro_image: "images/sample.jpg"
+intro_image: "images/bear-project.png"
 ---
 
 # Engineering Projects

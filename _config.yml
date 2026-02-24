@@ -2,11 +2,14 @@ baseurl: ''
 url: 'https://thomasrichards.me'
 permalink: pretty
 title: 'Thomas Richards'
+
+favicon: 'images/logo/bear-logo.png'
+
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/bear-logo.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "images/logo/bear-logo.png"
   desktop_height: "32px"
   desktop_width: "120px"
 home: 
