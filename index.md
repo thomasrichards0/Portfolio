@@ -10,4 +10,4 @@ show_call_box: false
 
 # Thomas Richards
 
-an upcoming Mechanical Engineering graduate with experience in R&D, product development, and testing systems.
+an upcoming Mechanical Engineering graduate passionate about designing thoughtful products, with experience in R&D and product development.
