@@ -1,7 +1,7 @@
 ---
 title: "Multicooker Cavity Airflow Improvements"
-date: 2023-11-15
-weight: 5
+date: 2026-02-23
+weight: 6
 image: "/images/projects/sfp-final.jpeg"
 ---
 

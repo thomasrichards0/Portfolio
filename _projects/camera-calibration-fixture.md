@@ -1,7 +1,7 @@
 ---
 title: "Camera Calibration Fixture"
-date: 2024-02-15
-weight: 3
+date: 2026-02-23
+weight: 4
 image: "/images/projects/calibration-fixture-cad.jpg"
 ---
 

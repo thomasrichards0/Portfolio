@@ -1,6 +1,6 @@
 ---
 title: "Critter Catcher - Capstone Project"
-date: 2024-05-15
+date: 2026-02-22
 weight: 1
 image: "/images/projects/capstone-final-prototype.jpg"
 ---

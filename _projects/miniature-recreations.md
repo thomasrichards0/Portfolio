@@ -1,7 +1,7 @@
 ---
 title: "Miniature Product Recreations"
-date: 2024-03-15
-weight: 6
+date: 2026-02-23
+weight: 7
 image: "/images/projects/miniature-all.jpeg"
 ---
 
