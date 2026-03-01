@@ -63,6 +63,7 @@ To ensure the new cavity geometry would not affect surface temperatures of the c
 The final Ninja Combi product features both the modified heating element geometry and upper cavity shape. These changes minimized the uneven browning, allowing the product to be released.
 
 ## Skills Applied
+
 - Rapid Prototyping
 - Product Testing
 - Data Acquisition

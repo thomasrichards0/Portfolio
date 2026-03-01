@@ -74,12 +74,9 @@ Working with New England Beekeeping, we conducted validation testing at an apiar
 The Critter Catcher successfully captured and released live bees in our field testing, with no injuries observed. During the Fall 2024 Capstone Showcase, our group was awarded the "Best Iterative Design".
 
 ## Skills Applied
+
 - SolidWorks (assemblies, design for manufacturing, and PDM)
-
 - 3D Printing (FDM and SLA)
-
 - Silicone Molding and Mold Design
-
 - Component Sourcing
-
 - Fast-paced Design Iterations

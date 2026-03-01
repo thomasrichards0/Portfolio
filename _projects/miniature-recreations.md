@@ -73,6 +73,7 @@ For my miniature of my capstone project, Critter Catcher, I decided to make thes
 This ongoing project has produced a collection of miniatures from my co-op and capstone experiences. They serve as mementos that allow me to remember the different projects I've helped with over the years.
 
 ## Skills Applied
+
 - SolidWorks
 - Design for Manufacturing
 - 3D Printing and Post-processing
