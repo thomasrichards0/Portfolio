@@ -91,9 +91,15 @@ The following circuit was used to connect the two rotary encoders with the Ardui
 
 The macropad successfully allows for volume and media control and works in both monitor and desk modes. This project combined mechanical design, electronics, and programming into a functional peripheral that helps expand my skillset past solely mechanical projects.
 
-<div style="text-align: center; margin: 30px 0;">
-  <img src="{{ '/images/projects/macropad-picture.jpeg' | relative_url }}" alt="Macropad Attached to Monitor" style="max-width: 600px; width: 70%; border-radius: 8px;">
-  <p style="font-style: italic; margin-top: 10px;">The macropad attached to my monitor</p>
+<div class="row" style="margin: 20px 0;">
+  <div class="col-12 col-md-6">
+    <img src="{{ '/images/projects/macropad-picture.jpeg' | relative_url }}" alt="Macropad Attached to Monitor" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-style: italic; margin-top: 10px;">The macropad attached to my monitor</p>
+  </div>
+  <div class="col-12 col-md-6">
+    <img src="{{ '/images/projects/macropad-desk-picture.jpeg' | relative_url }}" alt="Macropad on Desk" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-style: italic; margin-top: 10px;">The macropad on my desk</p>
+  </div>
 </div>
 
 ## Skills Applied
