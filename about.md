@@ -42,3 +42,41 @@ I'm based in Boston and open to opportunities around New England.
 </div>
 
 </div>
+
+<h2>Technical Skills</h2>
+
+<div class="row">
+  <div class="col-12 col-md-6">
+    <p><b>CAD & Design</b></p>
+    <p><li>SolidWorks (part design, assemblies, configurations, exploded views)</li>
+    <li>Fusion360</li>
+    <li>AutoCAD</li>
+    <li>GD&T</li>
+    <li>Design for Manufacturing</li>
+    <li>Design for Assembly</li>
+    <li>Tolerance Analysis</li></p>
+    <p><b>Manufacturing & Prototyping</b></p>
+    <p><li>3D Printing (FDM, SLA, metal SLS)</li>
+    <li>CNC Machining (design)</li>
+    <li>Sheet Metal Design</li>
+    <li>Rapid Prototyping</li>
+    <li>Hand Tools & Power Tools</li>
+    <li>Soldering & Electronics Assembly</li></p>
+  </div>
+  
+  <div class="col-12 col-md-6">
+    <p><b>Testing & Validation</b></p>
+    <p><li>Data Aquisition</li>
+    <li>Thermal Testing</li>
+    <li>Thermocouple Measurements</li>
+    <li>SOP Development</li>
+    <li>Data Analysis</li></p>
+    <p><b>Electronics Integration</b></p>
+    <p><li>Arduino</li>
+    <li>Circuit Design</li></p>
+    <p><b>Software & Tools</b></p>
+    <p><li>MATLAB</li>
+    <li>MATLAB Simulink</li>
+    <li>Microsoft Office Suite</li></p>
+  </div>
+</div>
