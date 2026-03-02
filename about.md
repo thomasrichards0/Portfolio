@@ -57,7 +57,7 @@ I'm based in Boston and open to opportunities around New England.
     <li>Tolerance Analysis</li></p>
     <p><b>Manufacturing & Prototyping</b></p>
     <p><li>3D Printing (FDM, SLA, metal SLS)</li>
-    <li>CNC Machining (design)</li>
+    <li>Machining (design and basic operating skills)</li>
     <li>Sheet Metal Design</li>
     <li>Rapid Prototyping</li>
     <li>Hand Tools & Power Tools</li>
