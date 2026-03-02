@@ -87,6 +87,30 @@ The following circuit was used to connect the two rotary encoders with the Ardui
   <p style="font-style: italic; margin-top: 10px;">The electrical circuit for the macropad</p>
 </div>
 
+When programming the Arduino microcontroller, I decided the create two "Modes" that would increase the functionality of the macropad. To swap between the two modes, I decided the interaction would be to hold down both encoders for 1s. To indicate a change of mode, the volume is quickly muted and unmuted, giving a visual indicator on the screen to the user. The functions of each mode are described below:
+
+**Mode 1: Volume/Media Control**
+
+- Encoder 1:
+  - Rotate: Volume Up/Down
+  - Single Click: Mute
+  - Double Click: Previous Track
+
+- Encoder 2:
+  - Rotate: Left/Right Arrow Keys
+  - Single Click: Pause/Play
+  - Double Click: Next Track
+
+**Mode 2: Arrow Keys**
+
+- Encoder 1:
+  - Rotate: Up/Down Arrow Keys
+
+- Encoder 2:
+  - Rotate: Left/Right Arrow Keys
+
+Mode 2 enables me to use arrow keys when using my smaller form factor 60% keyboard, where these keys are missing.
+
 ## Results
 
 The macropad successfully allows for volume and media control and works in both monitor and desk modes. This project combined mechanical design, electronics, and programming into a functional peripheral that helps expand my skillset past solely mechanical projects.
