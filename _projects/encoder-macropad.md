@@ -1,7 +1,7 @@
 ---
 title: "Dual Rotary Encoder Macropad"
 date: 2026-02-28
-weight: 2
+weight: 3
 image: "/images/projects/macropad-picture.jpeg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Safety Syringe Test Fixtures"
 date: 2026-02-22
-weight: 3
+weight: 4
 image: "/images/projects/safety-syringe-cad_cropped.jpg"
 ---
 

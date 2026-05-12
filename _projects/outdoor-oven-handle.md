@@ -1,7 +1,7 @@
 ---
 title: "Outdoor Oven Smoke Handle Design"
 date: 2026-02-23
-weight: 5
+weight: 6
 image: "/images/projects/oohandle-initial-testing.jpeg"
 ---
 
